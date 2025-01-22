@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+// Program to output a future date based on user input of date and number of days user wants to add to that date
+
+
+
 // Function to check if year is a leap year
 
 bool leapYearCalculator(int* yy) {
