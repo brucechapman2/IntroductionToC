@@ -2,7 +2,7 @@
 
 
 
-void Introduction()
+int main()
 {
    // Arrays are an ordered sequence of items of the same type as we found out in the function Arrays()
    // They live in RAM as one blob of memory
@@ -34,11 +34,7 @@ void Introduction()
    // It should be an int because we told the compiler that it is a "pointer to int" (that's the int* bit)
    printf("asApointer is pointing to an int that has value %d\n", *asAPointer);
 
-}
 
-
-void StringsAreArrays()
-{
    // A string in C is a pointer to an array of characters. The end of the string is marked with a zero
    // Here are 3 ways to decalre a string.
    // Here is the easiest way to declare a string
@@ -72,18 +68,6 @@ void StringsAreArrays()
    pointerForLoop = SillyString;
    while (*pointerForLoop++);
    printf("The number of characters (version 2) is %d\n", (int)(pointerForLoop - SillyString - 1));
-}
-
-
-
-
-void ArraysAsPointers()
-{
-   printf("****            ARRAYS AS POINTERS\n");
-
-   Introduction();
-
-   StringsAreArrays();
 
    printf("\n\n\n\n\n");
 }

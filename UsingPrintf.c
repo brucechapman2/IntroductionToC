@@ -2,7 +2,7 @@
 
 
 
-void UsingPrintf()
+int main()
 {
    printf("****            USINGPRINTF\n");
 
@@ -53,9 +53,9 @@ void UsingPrintf()
    printf("Here comes a string: %s\n", aString);
 
    // Nice and simple - an integer
-   int x;
-   x = 42;
-   printf("Here comes an int: %d\n", x);
+   int xyz;
+   xyz = 42;
+   printf("Here comes an int: %d\n", xyz);
 
    // A float and a double. They are both floating point numbers. 
    // A double uses 8 bytes of RAM whereas a float only uses 4, so a double has a much bigger range
